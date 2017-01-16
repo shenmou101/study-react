@@ -1,0 +1,26 @@
+{
+  "name": "study-react",
+  "version": "1.0.0",
+  "description": "## 基本操作 ``` git config --global alias.st status   //设置git的快捷键 git status 为 git st",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenmou101/study-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenmou101/study-react/issues"
+  },
+  "homepage": "https://github.com/shenmou101/study-react#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "react": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
+  }
+}
