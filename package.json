@@ -4,7 +4,9 @@
   "description": "## 基本操作 ``` git config --global alias.st status   //设置git的快捷键 git status 为 git st",
   "main": "a.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -wd build",
+    "dev": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,20 @@
   },
   "homepage": "https://github.com/shenmou101/study-react#readme",
   "dependencies": {
+    "babel-polyfill": "^6.20.0",
     "gulp": "^3.9.1",
-    "react": "^15.4.2"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.18.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-runtime": "^6.20.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "webpack-dev-server": "^1.16.2"
   }
 }
