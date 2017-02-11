@@ -1,6 +1,15 @@
 import 'babel-polyfill';
 
-console.log(Array.from('aaa'));
-let x = sum(1,2);
+function f1(){
+	let n = 4;
+	if(true){
+		let n = 10;
+	}
+	console.log(n);
+}
 
-console.log(x1);
+const PI = 3.1415;
+console.log(PI);
+
+PI = 3;
+console.log(PI);
