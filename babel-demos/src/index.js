@@ -195,3 +195,19 @@ import React, {Component, PropTypes} from 'react';
 //4
 import * as module1 from './index.js'
 */
+
+import React, {Component, PropTypes} from 'react';
+import {render} from 'react-dom';
+
+class App extends Component{
+	render(){
+		return(
+			<div>
+				<h1>欢迎学习react</h1>
+			</div>
+		)
+	}
+}
+
+let root = document.getElementById('app');
+render(<App/>,root)
